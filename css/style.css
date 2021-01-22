@@ -1,10 +1,50 @@
 body {
-    background-color: black;
-    color: #00ff00;
+    background-color: #2e92ba;
     font-family: 'VT323', monospace;
+    min-height: 100vh;
+    min-width: 1024px;
+    padding: 100px;
+    margin: 0;
 }
 
 .main {
+    position: relative;
+    z-index: 3;
+    background: white;
+    padding: 32px;
+    border: 6px double black;
+    margin: auto;
+    max-width: 800px;
+
+}
+.title {
     display: flex;
-    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+.description {
+}
+
+article::before {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 32px;
+    left: 32px;
+    z-index: 2;
+}
+
+article {
+    width: 50%;
+    max-width: 800px;
+    margin: 0 auto -150px;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.checkerboard-shadow::before {
+	background-image: linear-gradient(45deg, #333 25%, transparent 25%), linear-gradient(135deg, #333 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #333 75%), linear-gradient(135deg, transparent 75%, #333 75%);
+	background-size: 4px 4px;
+	background-position: 0 0, 2px 0, 2px -2px, 0 2px;
 }
