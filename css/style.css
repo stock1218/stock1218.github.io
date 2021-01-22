@@ -23,6 +23,11 @@ body {
 
 .nav-item {
     padding-inline: 7px;
+    padding-block: 2px;
+}
+
+.nav-item:hover {
+    background-color: gainsboro;
 }
 
 .nav-item::first-letter {
@@ -48,7 +53,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 2px;
     width: 100%;
     border: 2px solid black;
     border-right: none;
