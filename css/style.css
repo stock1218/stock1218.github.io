@@ -72,10 +72,20 @@ body {
 .description {
 }
 
-img {
-    max-width: 100px;
-    max-height: 100px;
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    border: 2px solid black;
+    align-self: center;
+}
+
 
 article::before {
     content: ' ';

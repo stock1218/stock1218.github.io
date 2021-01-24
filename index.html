@@ -1,57 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>John's Website</title>
-    <meta name="description" content="John's Personal Website" />
-    <meta name="author" content="John Samuels" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=VT323">
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>John's Website</title>
+  <meta name="description" content="John's Personal Website" />
+  <meta name="author" content="John Samuels" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <body>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <article class="checkerboard-shadow">
-      <div class="content">
-        <div class="nav">
-          <div class="sections">
-            <div id="homebutton" class="nav-item">HOME</div>
-            <div id="blogbutton" class="nav-item">BLOG</div>
-            <div id="gpgbutton" class="nav-item">PUBLIC KEY</div>
-            <div id="otherbutton" class="nav-item">OTHER STUFF</div>
-          </div>
-          <div class="x-button">
-            X
-          </div>
-        </div>
-        <div id="homeContent" class="main">
-            <img src="/img/profile.png">
-            <div class="title">
-                <h1>John's Website</h1>
-            </div>
-            <div class="description">
-                <p>
-                    I'm in my undergradute degree at Royal Holloway in computer science and information security, and I'm looking for roles in information security. I'm deeply passionate about defending against and understanding threat actors. I have technical experience building enterprise security solutions, and an international background that allows me to better understand the cyber threat landscape.
-                    Areas of interest include security engineering, machine learning, malware detection and analysis, offensive security, cyberwarfare, and international politics.
-                </p>
-            </div>
-        </div>
-        <div id="otherContent" class="main">
-            <div class="title">
-                <h1>Other Stuff</h1>
-            </div>
-            <div class="description">
-              <p>
-                OTHER
-              </p>
+<body>
 
-            </div>
+  <article class="checkerboard-shadow">
+    <div class="content">
+      <div class="nav">
+        <div class="sections">
+          <div id="homeButton" class="nav-item">HOME</div>
+          <div id="contactButton" class="nav-item">CONTACT</div>
+          <div id="resumeButton" class="nav-item">RÉSUMÉ</div>
+          <div id="blogButton" class="nav-item">BLOG</div>
+          <div id="otherButton" class="nav-item">OTHER STUFF</div>
         </div>
+        <div class="x-button">
+          X
         </div>
-    </article>
-  </body>
-  <script src="js/main.js"></script>
+      </div>
+
+      <div id="homeContent" class="main">
+        <div class="img-container">
+          <img src="/img/profile.png">
+        </div>
+        <div class="title">
+          <h1>Welcome!</h1>
+        </div>
+        <div class="description">
+          <p>
+            You've found my website :), I'm a Computer Scientist and Security enthusiast with a passion for learning new
+            things and applying them to interesting problems. I'm using this website as a way to showcase my interests
+            and work while I explore this amazing field. I hope you enjoy your stay and feel free to reach out.
+          </p>
+        </div>
+        <div class="title">
+          <h1>Whoami</h1>
+        </div>
+        <div class="description">
+          <p>
+            I'm a recent graduate in Computer Science and Information Security currently based in Miami, Florida.
+            I'm deeply passionate about defending against and understanding threat actors. I have technical experience
+            building enterprise
+            security solutions, and an international background that allows me to better understand the cyber threat
+            landscape. Areas of interest include security engineering,
+            machine learning, malware detection and analysis, offensive security, cyberwarfare, and international
+            politics.
+          </p>
+        </div>
+      </div>
+
+      <div id="otherContent" class="main">
+        <div class="title">
+          <h1>Other Stuff</h1>
+        </div>
+        <div class="description">
+          <p>
+            OTHER
+          </p>
+
+        </div>
+      </div>
+
+      <div id="contactContent" class="main">
+        <div class="title">
+          <h1>Contacting Me</h1>
+        </div>
+        <div class="description">
+          <p>
+            Here are some places you can reach me:
+          <ul>
+            <li><b>Email:</b> <a href="mailto:johnsamuels1218@gmail.com">johnsamuels1218@gmail.com</a> (This is the best
+              option)</li>
+            <li><b>LinkedIn:</b> <a href="https://linkedin.com/in/johnsamuels">https://linkedin.com/in/johnsamuels/</a>
+            </li>
+            <li><b>Keybase:</b> <a href="https://keybase.io/stock1218">https://keybase.io/stock1218</a></li>
+            <li><b>Twitter:</b> <a href="https://twitter.com/0x4br4x4s">https://twitter.com/0x4br4x4s</a></li>
+          </ul>
+          </p>
+        </div>
+        <div class="title">
+          <h1>Paranoid Like Me?</h1>
+        </div>
+        <div class="description">
+          <p>
+            <a href="/John_Samuels_public.asc">Here</a>'s my public key ;)
+          </p>
+        </div>
+      </div>
+  </article>
+</body>
+<script src="js/main.js"></script>
+
 </html>
