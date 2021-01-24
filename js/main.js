@@ -1,8 +1,6 @@
 homeNode = document.getElementById('homeContent');
-otherNode = document.getElementById('otherContent');
 contactNode = document.getElementById('contactContent');
 
-otherNode.style.display = "none";
 contactNode.style.display = "none";
 
 var lastNode = homeNode;
@@ -24,12 +22,9 @@ document.getElementById('contactButton').onclick = () => {
 }
 
 document.getElementById('resumeButton').onclick = () => {
+    window.location.href = '/John-Samuels.pdf';
 }
 
 document.getElementById('blogButton').onclick = () => {
     window.location.href = 'https://www.blog.johnsamuels.ninja';
-}
-
-document.getElementById('otherButton').onclick = () => {
-    changeTab(otherNode);
 }
